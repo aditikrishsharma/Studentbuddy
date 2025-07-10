@@ -301,7 +301,12 @@ body {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: #fbc2eb;
+    background: radial-gradient(
+      circle at center,
+      #fff6b7 0%,
+      #fbc2eb 40%,
+      #f68084 100%
+    );
     width: 100%;
     text-align: center;
     padding: 10px 0;
